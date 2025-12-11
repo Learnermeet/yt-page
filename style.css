@@ -1,19 +1,39 @@
+.top{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 2000;
+    border-bottom: 1px solid #ddd;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    
+    padding: 10px 0;
+    text-align: center;
+}
+
 .welcometext {
     font-size: 24px;
     font-weight: bold;
-    color: #333333;
-    text-align: center;
-    margin-top: 20px;
+    color: #333;
+    margin: 0;
 }
 
 .tag-bar {
     display: flex;
+    position: sticky;
+    top: 40px;
+    z-index: 1000;
     gap: 12px;
     overflow-x: auto;
     white-space: nowrap;
     padding: 10px 16px;
     background: #fff;
-    border-bottom: 1px solid #ccc;
 }
 
 .tag {
